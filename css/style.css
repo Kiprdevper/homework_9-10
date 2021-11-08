@@ -516,3 +516,97 @@ input {
     color: #000000;
 }
 
+/*contact*/
+
+.container-contacts {
+    background: #FFFFFF;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 44px 44px 46px 46px;
+}
+
+.container-contacts-list {
+    margin-bottom: 59px;
+}
+
+.contacts-address {
+    min-width: 375px;
+}
+
+.container-contacts-item {
+    justify-content: space-between;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 23px;
+}
+
+.container-contacts-item:not(:first-child) {
+    padding-top: 25px;
+}
+
+.contacts-item-caption {
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.contacts-item-description-address {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    width: 230px;
+}
+
+.contacts-item-tel {
+    width: 230px;
+}
+
+.contacts-item-tel-link {
+    display: block;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC9933;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.contacts-item-email {
+    width: 230px;
+}
+
+.contacts-item-mailto-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #CC9933;
+}
+
+.contacts-item-text_transparent {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #999999;
+}
+
+.contacts-item-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    width: 230px;
+}
+
+.contacts-btm {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CC9933;
+    padding: 27px 20px;
+}
